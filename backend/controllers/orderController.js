@@ -59,7 +59,7 @@ const allOrders = async (req, res) => {
     try {
 
         const orders = await orderModel.find({});
-
+        
         res.json({
             success: true,
             orders
