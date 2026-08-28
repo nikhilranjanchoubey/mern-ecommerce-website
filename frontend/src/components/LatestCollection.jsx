@@ -23,7 +23,8 @@ const LatestCollection = () => {
                 />
 
                 <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, laudantium?
+                    Discover our latest collection, featuring fresh styles and timeless pieces designed to elevate your everyday look.
+
                 </p>
 
             </div>

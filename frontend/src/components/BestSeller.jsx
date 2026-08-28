@@ -19,7 +19,8 @@ const BestSeller = () => {
                 <Title text1={'BEST'} text2={'SELLERS'} />
 
                 <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, repellat!
+                    Explore our most-loved styles, carefully selected for their quality, comfort, and timeless appeal.
+
                 </p>
             </div>
 
