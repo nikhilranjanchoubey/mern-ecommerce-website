@@ -308,27 +308,23 @@ const PlaceOrder = () => {
             {/* Payment Method Selection */}
             <div className='flex gap-3 flex-col lg:flex-row'>
 
-              {/* Stripe */}
-              <div
-                onClick={() => setMethod('stripe')}
-                className='flex items-center gap-3 border p-2 px-3 cursor-pointer'
-              >
+              
+             {/* Stripe - Coming Soon */}
+<div
+  className='flex items-center gap-3 border p-2 px-3 cursor-not-allowed opacity-50'
+>
+  <p className='min-w-3.5 h-3.5 border rounded-full'></p>
 
-                <p
-                  className={`min-w-3.5 h-3.5 border rounded-full ${
-                    method === 'stripe'
-                      ? 'bg-green-400'
-                      : ''
-                  }`}
-                ></p>
+  <img
+    className='h-5 mx-4'
+    src={assets.stripe_logo}
+    alt='Stripe'
+  />
 
-                <img
-                  className='h-5 mx-4'
-                  src={assets.stripe_logo}
-                  alt='Stripe'
-                />
-
-              </div>
+  <span className='text-xs text-gray-500 whitespace-nowrap'>
+    Coming Soon
+  </span>
+</div>
 
 
               {/* Razorpay */}
